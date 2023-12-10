@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    max-width: 580px;
+    max-width: 500px;
     background-color: var(--white);
     padding: 1rem 3rem;
     border-radius: 15px;
@@ -38,7 +38,7 @@ body {
 }
 
 .heading h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -52,6 +52,7 @@ body {
     width: 100%;
     border: none;
     display: flex;
+    font-size: .7rem;
     text-align: left;
     align-items: center;
     justify-content: space-between;
@@ -79,6 +80,7 @@ body {
     color: var(--grayish-purple);
     line-height:1.5rem;
     max-height: 0;
+    font-size: .85rem;
     overflow: hidden;
     transition: max-height 400ms ease-in-out;
 }
